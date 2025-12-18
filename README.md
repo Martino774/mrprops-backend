@@ -111,5 +111,3 @@ pytest -q
 - Abrir PRs y ejecutar tests localmente antes de pedir revisión
 
 ---
-
-Si querés, puedo también crear el archivo `.github/workflows/ci.yml` de ejemplo o guiarte con los comandos para commitear estos cambios; decime cómo preferís continuar.
