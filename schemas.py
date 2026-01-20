@@ -46,7 +46,11 @@ class UserResponse(UserBase):
 # Schemas para Auth
 class Token(BaseModel):
     access_token: str
+    refresh_token: str
     token_type: str = "bearer"
+
+class RefreshTokenRequest(BaseModel):
+    refresh_token: str
 
 # Schemas para Bookings
 class BookingBase(BaseModel):

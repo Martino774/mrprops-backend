@@ -20,6 +20,11 @@ alembic/versions/*.pyc
 *.log
 .pytest_cache/
 
+# Tests / IDE
+.pytest_cache/
+.idea/
+.vscode/
+
 # Sistema
 .DS_Store
 Thumbs.db
@@ -29,3 +34,6 @@ build/
 dist/
 *.egg-info/
 pip-wheel-metadata/
+
+# Misc
+*.sqlite3
